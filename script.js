@@ -33,7 +33,7 @@ function generateGrid(box) {
         box.addEventListener('mouseup', () => {
             isMouseDown = false;
         });
-        row.addEventListener('mousemove', (event) => {
+        row.addEventListener('mouseover', (event) => {
             if (isMouseDown) {
                 let target = event.target;
                 console.log(target.id);
