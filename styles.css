@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+#box {
+    border: 1px solid black;
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+}
+
+#btn {
+    padding: 50px;
+    font-size: large;
+}
