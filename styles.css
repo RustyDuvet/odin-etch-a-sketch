@@ -5,7 +5,6 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    border: 1px solid black;
     flex-direction: column;
 }
 
@@ -16,7 +15,8 @@ body {
     flex-direction: column;
 }
 
-#btn {
-    padding: 50px;
+button {
+    padding: 12px 25px;
+    margin: 20px;
     font-size: large;
 }
